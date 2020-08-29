@@ -16,6 +16,7 @@ Citations can be made as such:
   title = {A Linkage Pipeline for Place Records Using Multi-view Encoders},
   school = {Universidade Federal de Pernambuco (UFPE), Pernambuco, Brazil},
   year = {2020},
+  url = "https://github.com/vinimoraesrc/placern"
 }
 
 ```
