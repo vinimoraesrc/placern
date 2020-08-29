@@ -1,10 +1,27 @@
 # A Linkage Pipeline for Place Records Using Multi-view Encoders
 
-Extracting information about Web entities has become commonplace in the academy and industry alike. In particular, data about places distinguish themselves as rich sources of geolocalized information and spatial context, serving as a foundation for a series of applications. These entities, however, are inherently noisy and introduce several normalization problems, which need to be tackled in order to obtain a clean database. Record linkage, also known as entity resolution, refers to the detection of replicated data from potentially multiple sources, and is one of the most critical cleaning processes to be conducted in a database. This work presents a novel record linkage solution for large scale Web-based places data, being composed of three steps: generation of potential duplicate place pairs, place pair deduplication, and clusterization of the classification results. The detection of duplicate places is the solution's core, being a complex and seldom approached problem in this domain. Hence, the main contribution of this work is in the form of a model based on a deep neural network architecture, which utilizes encoders for different information levels of names, addresses, geographical coordinates, and categories. Each encoder uses distinct structures to generate representation vectors, which are concatenated, compared, and transported to a feature space that represents duplications and non-duplications. Additionally, this work proposes alternative classification models for real time usage by means of APIs. The complete solution is analyzed, with the classification model for place pairs being evaluated on top of two distinct data sets and compared against the state-of-the-art. As a result, the proposed solution is shown to handle large quantities of data in a production environment, and the classification model outperforms the baselines in both data sets, thus constituting a complete and efficient solution for the record linkage problem in the places data domain.
+Extracting information about Web entities has become commonplace in the academy and industry alike. In particular, data about places distinguish themselves as rich sources of geolocalized information and spatial context, serving as a foundation for a series of applications. These entities, however, are inherently noisy and introduce several normalization problems, which need to be tackled in order to obtain a clean database.
+
+Record linkage, also known as entity resolution, refers to the detection of replicated data from potentially multiple sources, and is one of the most critical cleaning processes to be conducted in a database. This work presents a novel record linkage solution for large scale Web-based places data, being composed of three steps: generation of potential duplicate place pairs, place pair deduplication, and clusterization of the classification results.
+
+The detection of duplicate places is the solution's core, being a complex and seldom approached problem in this domain. Hence, the main contribution of this work is in the form of a model based on a deep neural network architecture, which utilizes encoders for different information levels of names, addresses, geographical coordinates, and categories. Each encoder uses distinct structures to generate representation vectors, which are concatenated, compared, and transported to a feature space that represents duplications and non-duplications.
+
+Additionally, this work proposes alternative classification models for real time usage by means of APIs. The complete solution is analyzed, with the classification model for place pairs being evaluated on top of two distinct data sets and compared against the state-of-the-art. As a result, the proposed solution is shown to handle large quantities of data in a production environment, and the classification model outperforms the baselines in both data sets, thus constituting a complete and efficient solution for the record linkage problem in the places data domain.
 
 ## About The Repository
 
 This repository holds the latest version of a MSc thesis named `A Linkage Pipeline for Place Records Using Multi-view Encoders` which proposes a linkage pipeline and a novel deep neural network for pairwise place matching named `PlacERN` as the main driver behind said pipeline. This project was developed at [Inloco](https://github.com/inloco).
+
+<p align="center">
+  <img src="https://github.com/vinimoraesrc/placern/blob/master/linkage-pipeline.png?raw=true" width="600" />
+</figure>
+
+---
+
+<p align="center">
+  <img src="https://github.com/vinimoraesrc/placern/blob/master/placern.jpg?raw=true" width="600" />
+</p>
+
 
 ## Citing
 
