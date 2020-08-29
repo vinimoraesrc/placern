@@ -4,7 +4,7 @@ Extracting information about Web entities has become commonplace in the academy 
 
 ## About The Repository
 
-This repository holds the latest version of a MSc thesis named `A Linkage Pipeline for Place Records Using Multi-view Encoders` which proposes a linkage pipeline and a novel deep neural network for pairwise place matching named `PlacERN` as the main driver behind said pipeline.
+This repository holds the latest version of a MSc thesis named `A Linkage Pipeline for Place Records Using Multi-view Encoders` which proposes a linkage pipeline and a novel deep neural network for pairwise place matching named `PlacERN` as the main driver behind said pipeline. This project was developed at [Inloco](https://github.com/inloco).
 
 ## Citing
 
@@ -23,7 +23,7 @@ Citations can be made as such:
 
 ## Associated Publications
 
-V. Cousseau, L. Barbosa, [*Industrial paper: Large-scale record linkage of web-based place entities*](https://sol.sbc.org.br/index.php/sbbd/article/view/8820)
+[1] V. Cousseau, L. Barbosa, [*Industrial paper: Large-scale record linkage of web-based place entities*](https://sol.sbc.org.br/index.php/sbbd/article/view/8820)
 
 ```
 @inproceedings{cousseau-linkage:2019
@@ -41,3 +41,7 @@ V. Cousseau, L. Barbosa, [*Industrial paper: Large-scale record linkage of web-b
  url = {https://sol.sbc.org.br/index.php/sbbd/article/view/8820}
 }
 ```
+
+## Associated Posts
+
+[1] V. Cousseau, [*Solving Data Consistency Issues in Our Places Platform*](https://medium.com/inlocotech/solving-data-consistency-issues-in-our-places-platform-f3942a96a072)
